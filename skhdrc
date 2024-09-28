@@ -24,7 +24,8 @@ shift + alt - x : yabai -m space --mirror x-axis
 alt - space : yabai -m window --toggle split
 
 # toggle window float
-shift + alt - f : yabai -m window --toggle float --gtid 4:4:1:1:2:2
+# shift + alt - f : yabai -m window --toggle float --gtid 4:4:1:1:2:2
+alt - f : yabai -m window --toggle float --gtid 4:4:1:1:2:2
 
 # Maximize window
 shift + alt - m : yabai -m window --toggle zoom-fullscreen
@@ -40,15 +41,6 @@ shift + alt - h : yabai -m window --swap west
 shift + alt - l : yabai -m window --swap east 
 
 
-# # Move window to display left and right
-# shift + alt - s : yabai -m window --display west; yabai -m display --focus west
-# shift + alt - g : yabai -m window --display east; yabai -m display --focus east 
-
-# # Move window to prev and next space
-# shift + alt - p : yabai -m window --space prev;
-# shift + alt - n : yabai -m window --space next;
-
-
 # Move window to space #
 shift + alt - 1 : yabai -m window --space 1;
 shift + alt - 2 : yabai -m window --space 2;
@@ -62,3 +54,14 @@ shift + alt - 7 : yabai -m window --space 7;
 # Start/Stop Yabai
 ctrl + alt - s : yabai --start-service
 ctrl + alt - q : yabai --stop-service
+
+
+# Unused configurations
+# # Move window to display left and right
+# shift + alt - s : yabai -m window --display west; yabai -m display --focus west
+# shift + alt - g : yabai -m window --display east; yabai -m display --focus east 
+
+# # Move window to prev and next space
+# shift + alt - p : yabai -m window --space prev;
+# shift + alt - n : yabai -m window --space next;
+
